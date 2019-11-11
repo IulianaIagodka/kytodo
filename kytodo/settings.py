@@ -25,7 +25,7 @@ SECRET_KEY = 'l&lj*io-lcv+1_v4hq0!hl&*8%82=pg927fq)p3bi+s^0z@2)m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['iulianaiagodka.pythonanywhere.com']
 
 
 # Application definition
@@ -42,8 +42,12 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+=======
+	'whitenoise.middleware.WhiteNoiseMiddleware'
+>>>>>>> 937e6c1cf277aebd3526ad63a7c61ba89adf5445
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
